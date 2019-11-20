@@ -4,7 +4,7 @@ var ul1=a1.getElementsByClassName('ul1');
 	for (var i=0;i<ul1.length;i++){
 	ul1[i].style.display='none';
 }
- ul1[0].style.display='';
+ ul1[0].style.display='block';
  for (var i=0;i<ul1.length;i++){
 	c1[i].index=i;
 	ul1[i].index1=i;
@@ -14,7 +14,7 @@ var ul1=a1.getElementsByClassName('ul1');
 		for (var i=0;i<ul1.length;i++){
 		  ul1[i].style.display='none';
 		  }
-		 ul1[index].style.display='';
+		 ul1[index].style.display='block';
 		}else{
 			for (var i=0;i<ul1.length;i++){
 		  ul1[i].style.display='none';
